@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Kyiv*Type Serif';
+    src: url('fonts/KyivTypeSerif.eot');
+    src: url('fonts/KyivTypeSerif.eot?#iefix') format('embedded-opentype'),
+        url('fonts/KyivTypeSerif.woff2') format('woff2'),
+        url('fonts/KyivTypeSerif.woff') format('woff'),
+        url('fonts/KyivTypeSerif.ttf') format('truetype'),
+        url('fonts/KyivTypeSerif.svg#Kyiv*TypeSerif') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {box-sizing: border-box;
+    font-family: 'Kyiv*Type Serif'; font-weight: 1000;
+    margin: 0; padding: 0;}
+
+body {background: #E3AB8C; width: 100%;
+    font-size: 20px;}
+
+#outhead {background: gray;}
+
+#head {margin-left: auto; margin-right: auto; max-width: max-content;}
+
+#inhead {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    background: gray;
+}
+
+#logo {padding-top: 5px; padding-bottom: 5px;}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #8C3B99;
+    padding-left: 25px; padding-right: 25px;
+    border-radius: 10px;
+}
+
+a#first:hover {
+    background-color: #E5197B;
+}
+
+#outface {
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+    margin-top: 2.5%; margin-bottom: 2.5%;
+}
+
+#face {background-image: url(png/face.png);}
+
+#inface {
+    width: min-content;
+    font-size: 40px; color: white;
+    margin-left: auto; margin-right: auto;
+    padding-top: 5%; padding-bottom: 5%;
+}
+
+#arrow {margin-bottom: -1%;}
+
+.line {background-color: lightgray; width: 1000px; height: 5px;
+    margin-left: auto; margin-right: auto;}
+
+#outblocks {margin-left: auto; margin-right: auto; width: 1000px;}
+
+#blocks {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%; padding-bottom: 5%
+}
+
+.block {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding-left: 2.5%; padding-top: 0.5%; padding-bottom: 2.5%;
+    width: 32%;
+}
+
+b {font-size: 80px}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5%; padding-bottom: 0.5%;
+    margin-left: auto; margin-right: auto;
+    width: 1000px;
+}
+
+#onas2 {font-size: 40px;}
+
+#text {
+    margin-left: auto; margin-right: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between; flex-wrap: wrap;
+    padding-bottom: 2.5%;
+    font-size: 20px;
+}
+
+#svyaz {
+    margin-left: auto; margin-right: auto;
+    padding-top: 1.5%; padding-bottom: 1.5%;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around; flex-wrap: wrap; align-items: center;
+}
+
+a#second:hover {
+    background-color: #E5197B;
+}
+
+#sob {
+    margin-left: auto; margin-right: auto;
+    padding-top: 0.5%; padding-bottom: 0.5%;
+    width: 1000px;
+}
+
+#fes {
+    margin-left: auto; margin-right: auto;
+    font-size: 40px;
+    width: min-content;
+}
+
+#cards {
+    margin-left: auto; margin-right: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5%; padding-bottom: 2.5%;
+}
+
+.card {
+    padding-left: 2.5%; padding-top: 50%; padding-bottom: 2.5%;
+    width: 32%;
+    color: white;
+}
+
+#card1 {background-image: url(png/card1.png);transition: 0.5s ease-in-out;}
+#card2 {background-image: url(png/card2.png);transition: 0.5s ease-in-out;}
+#card3 {background-image: url(png/card3.png);transition: 0.5s ease-in-out;}
+
+#card1:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+#card2:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+#card3:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.third {background-color: lightgrey; color: black; margin-left: 15%;}
+
+a.third:hover {
+    background-color: #CEB3C0;
+}
+
+#kon1 {
+    margin-left: auto; margin-right: auto;
+    font-size: 40px;
+    width: 1000px;
+    padding-top: 0.5%;
+}
+
+#kon2 {
+    margin-left: auto; margin-right: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around; align-items: center;
+    padding-top: 0.5%; padding-bottom: 0.5%;
+}
+
+#end {margin-bottom: 0.5%;}
